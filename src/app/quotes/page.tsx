@@ -1,0 +1,1 @@
+export default function QuotesListPage(){return(<section style={{padding:'2rem'}}><h1>Your Quotes</h1><p>Placeholder for listing all customer quotes.</p><ul><li>No quotes yet.</li></ul><a href='/quote/new' style={{display:'inline-block', marginTop:12}}>Create a New Quote</a></section>)}

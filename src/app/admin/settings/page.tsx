@@ -1,0 +1,1 @@
+export default function AdminSettingsPage(){return(<div><h2>Settings</h2><p>Placeholder page. Admin can update company info, logo, tax rate, etc.</p></div>)}

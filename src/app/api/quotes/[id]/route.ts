@@ -1,0 +1,1 @@
+import { NextResponse } from 'next/server';export async function GET(_:Request,{params}:{params:{id:string}}){return NextResponse.json({ok:true,id:params.id,note:'TODO: return quote details if owner/admin'})}export async function PATCH(_:Request,{params}:{params:{id:string}}){return NextResponse.json({ok:true,id:params.id,note:'TODO: update quote items/notes and recalc totals'})}

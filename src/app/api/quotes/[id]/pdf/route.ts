@@ -1,0 +1,1 @@
+import { NextResponse } from 'next/server';import { generateQuotePdfStub } from '@/lib/pdf';export async function POST(_:Request,{params}:{params:{id:string}}){const result=await generateQuotePdfStub(params.id);return NextResponse.json(result)}

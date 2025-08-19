@@ -1,0 +1,1 @@
+export default function AdminQuotesPage(){return(<div><h2>All Quotes</h2><p>Placeholder page. Admin sees all customer quotes here.</p></div>)}

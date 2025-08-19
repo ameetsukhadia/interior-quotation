@@ -1,0 +1,1 @@
+import { NextResponse } from 'next/server';export async function PATCH(_:Request,{params}:{params:{id:string}}){return NextResponse.json({ok:true,id:params.id,note:'TODO: update tier'})}

@@ -1,0 +1,1 @@
+export default function AdminCustomersPage(){return(<div><h2>Customers</h2><p>Placeholder page. Admin can list and manage customers here.</p></div>)}

@@ -1,0 +1,1 @@
+import { NextResponse } from 'next/server';export async function GET(){return NextResponse.json({ok:true,items:[],note:'TODO: admin list with search/filter'})}export async function POST(){return NextResponse.json({ok:true,note:'TODO: admin create product'})}

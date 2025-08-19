@@ -1,0 +1,1 @@
+export default function AdminTiersPage(){return(<div><h2>Manage Material Tiers</h2><p>Placeholder page. Admin can manage Premium / Average / Low-cost tiers here.</p></div>)}

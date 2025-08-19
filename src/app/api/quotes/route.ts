@@ -1,0 +1,1 @@
+import { NextResponse } from 'next/server';export async function GET(){return NextResponse.json({ok:true,items:[],note:'TODO: return quotes for authenticated user'})}export async function POST(){return NextResponse.json({ok:true,id:'quote-id',note:'TODO: create draft quote and initial items'})}

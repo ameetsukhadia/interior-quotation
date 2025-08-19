@@ -1,0 +1,1 @@
+export default function AdminProductsPage(){return(<div><h2>Manage Products</h2><p>Placeholder page. Admin can add/edit/delete products here.</p></div>)}

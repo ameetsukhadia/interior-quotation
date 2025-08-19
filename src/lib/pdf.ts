@@ -1,0 +1,1 @@
+export async function generateQuotePdfStub(quoteId:string){return{ok:true,quoteId,file:null,note:'Stub only: implement headless-browser or HTML-to-PDF here.'}}

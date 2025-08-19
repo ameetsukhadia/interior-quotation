@@ -1,0 +1,1 @@
+import { NextResponse } from 'next/server';export async function GET(){return NextResponse.json({ok:true,settings:null,note:'TODO: return settings row'})}export async function PATCH(){return NextResponse.json({ok:true,note:'TODO: update branding, tax rate, terms'})}

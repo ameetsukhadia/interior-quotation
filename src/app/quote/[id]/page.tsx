@@ -1,0 +1,1 @@
+export default function QuoteDetailPage({params}:{params:{id:string}}){return(<section style={{padding:'2rem'}}><h1>Quote Detail</h1><p>Placeholder for quote ID: {params.id}</p><button style={{padding:'0.6rem 0.9rem', border:'1px solid #111', borderRadius:8}}>Generate PDF</button></section>)}
