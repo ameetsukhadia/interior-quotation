@@ -1,9 +1,9 @@
-export const metadata = {
-  title: "Interior Quotation",
-  description: "Create quotes with premium, average, and low-cost materials",
-};
+import '../styles/globals.css';
 
-import '../styles/globals.css'
+export const metadata = {
+  title: 'Interior Quotation',
+  description: 'Create quotes with premium, average, and low-cost materials',
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
